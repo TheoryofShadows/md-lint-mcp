@@ -1,0 +1,47 @@
+{
+  "name": "@mcpx-digital/md-lint",
+  "version": "0.1.0",
+  "description": "MCP server that lints local Markdown for broken relative links, heading hierarchy, empty links, and common README issues. Local files only.",
+  "type": "module",
+  "bin": {
+    "md-lint-mcp": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "files": [
+    "index.js",
+    "lib.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "markdown",
+    "lint",
+    "readme",
+    "links",
+    "mcpx"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoryofShadows/md-lint-mcp.git"
+  },
+  "homepage": "https://github.com/TheoryofShadows/md-lint-mcp#readme",
+  "author": "TheoryofShadows",
+  "bugs": {
+    "url": "https://github.com/TheoryofShadows/md-lint-mcp/issues"
+  }
+}
